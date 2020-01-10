@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="@drawable/animation_list"
+    android:padding="15dp">
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"/>
+
+    <EditText
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM"/>
+
+    <EditText
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:textSize="24sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:src="@drawable/ic_people"
+        android:background="@drawable/bg_image"
+        android:layout_marginTop="15dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:background="@drawable/bg_button"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnFoto"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="UBAH FOTO"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:background="@drawable/bg_button"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnDaftar"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
